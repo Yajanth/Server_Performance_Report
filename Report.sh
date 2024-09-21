@@ -2,5 +2,34 @@
 
 #Server Status Report
 
-current_time=$(date)
-echo $current_time
+#Get Systems Date and Time
+current_date=$(date "+%d/%m/%y")
+current_time=$(date "+%H:%M:%S")
+
+#Get Systems hostname
+host_name=$(hostname)
+
+#Os and machine info
+machine=$(uname -m)
+kernel_version=$(uname -r)
+
+#get CPU info
+cpu_info=$(lscpu | grep "Model name:" | awk '{for (i=3; i<=NF; i++) printf $i " "; print ""}')
+
+
+
+#get Memory info
+total_mem=$(free -h | grep "Mem:" | awk '{print $2}')
+used_mem=$(free -h | grep "Mem:" | awk '{print $3}')
+free_mem=$(free -h | grep "Mem:" | awk '{print $4}')
+
+#get disk Usage
+space_used=$(df -h| grep "/dev/nvme0n1p7" | awk '{print $3}')
+
+
+
+echo $space_used
+
+
+
+
