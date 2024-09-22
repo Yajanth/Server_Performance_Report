@@ -26,8 +26,11 @@ free_mem=$(free -h | grep "Mem:" | awk '{print $4}')
 #get disk Usage
 space_used=$(df -h| grep "/dev/nvme0n1p7" | awk '{print $3}')
 
+#get network interface details
+ip_address=$(ip -o -4 addr show | awk '{print $2 ":" $4}')
 
-
+#get server uptime
+up_time=$(uptime -p)
 echo $space_used
 
 
