@@ -1,0 +1,19 @@
+Date,Time,Hostname,Machine,Kernel_version,Total_Mem,Used_Mem,Free_Mem,Disk_space,IP_info,UpTime
+22/09/24,13:57:37,shera,"AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx ",6.8.0-40-generic,13Gi,1.6Gi,8.8Gi,31G,"lo:127.0.0.1/8
+wlp4s0:192.168.1.14/24
+docker0:172.17.0.1/16",2:10hr
+22/09/24,13:57:37,shera,"AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx ",6.8.0-40-generic,13Gi,1.6Gi,8.8Gi,31G,"lo:127.0.0.1/8
+wlp4s0:192.168.1.14/24
+docker0:172.17.0.1/16",2:10hr
+22/09/24,13:57:38,shera,"AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx ",6.8.0-40-generic,13Gi,1.6Gi,8.8Gi,31G,"lo:127.0.0.1/8
+wlp4s0:192.168.1.14/24
+docker0:172.17.0.1/16",2:10hr
+22/09/24,13:57:39,shera,"AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx ",6.8.0-40-generic,13Gi,1.6Gi,8.7Gi,31G,"lo:127.0.0.1/8
+wlp4s0:192.168.1.14/24
+docker0:172.17.0.1/16",2:10hr
+22/09/24,13:57:39,shera,"AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx ",6.8.0-40-generic,13Gi,1.6Gi,8.7Gi,31G,"lo:127.0.0.1/8
+wlp4s0:192.168.1.14/24
+docker0:172.17.0.1/16",2:10hr
+22/09/24,13:57:40,shera,"AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx ",6.8.0-40-generic,13Gi,1.6Gi,8.7Gi,31G,"lo:127.0.0.1/8
+wlp4s0:192.168.1.14/24
+docker0:172.17.0.1/16",2:10hr
